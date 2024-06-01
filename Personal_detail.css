@@ -1,0 +1,53 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 0px;
+    color: rgb(6, 6, 6);
+}
+.three_detail_section {
+    border: 1px solid #000; /* 2px solid black border */
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.personal_detail_heading{
+    margin-left: 1rem;
+}
+.row-2{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+.row-3{
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+ .input_field{
+    border: 1px solid #000; /* 2px solid black border */
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.row-4{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.aadhar_dob_mobile_gender{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.input_field_dob_mobile{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
